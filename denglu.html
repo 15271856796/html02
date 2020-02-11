@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>登录</title>
+<link rel="stylesheet" href="denglu.css"/>
+
+</head>
+
+<body background="denglu.jpg"  style="background-size:100% ;">
+    <div id="container">
+        <div id="logonext">
+            <p class="tip" align="center">欢迎您登录吃货网站！</p>
+        </div>
+        
+        <div id="middle">
+            <div id="register">
+                
+                <form>
+                        
+                        <br><br><br>
+                        &nbsp;姓&nbsp;名：<input type="text"><br><br><br>
+                        &nbsp;联系方式：<input type="text" style="width:200px">
+                        <br><br><br>
+                        &nbsp;留&nbsp;言：<br><br><input type="text" style="width:380px; height:100px;">
+                        <br><br><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="button" onClick="mess();"  value="点击提交">
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+    <script language="javascript" type="text/javascript">
+	function mess(){
+		    alert("提交成功！");
+			window.location.href='index.html';
+		}
+	</script>
+</body>
+</html>
